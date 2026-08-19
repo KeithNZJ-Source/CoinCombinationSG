@@ -1,5 +1,5 @@
-const CACHE='coin-finder-v2';
-const FILES=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./images/10-cent.png','./images/20-cent.jpg','./images/50-cent.jpg','./images/1-dollar.jpg'];
+const CACHE='coin-finder-v3';
+const FILES=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./images/10-cent.png','./images/20-cent.png','./images/50-cent.png','./images/1-dollar.png'];
 
 self.addEventListener('install', event => {
   self.skipWaiting();
